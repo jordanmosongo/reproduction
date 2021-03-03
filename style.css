@@ -905,7 +905,7 @@ footer {
     line-height: 33.6px;
 }
 footer > * {
-    width: 36%;
+    width: 30%;
     height: 55%;
     padding: 20px;
 }
@@ -913,6 +913,14 @@ footer address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+}
+address p, .newsletter p{
+    color: #e3e3e3;
+}
+address strong, .newsletter strong {
+    color: white;
+    font-weight: bolder;
     
 }
 footer li{
@@ -956,6 +964,7 @@ footer .newsletter {
     flex-direction: column;
     
 }
+
 .newsletter form {
     width: 98%;
     display: flex;
@@ -963,13 +972,16 @@ footer .newsletter {
     align-items: center;
 }
 .newsletter input {
-    width: 70%;
-    height: 60px;
+    width: 65%;
+    height: 20px;
     background-color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
 }
+
 .newsletter button {
     height: 60px;  
-    width: 30%; 
+    width: 25%; 
     background-color: #d92950;
     border-radius: 0 15px 15px 0;
     border: 2px solid #d92950;
@@ -983,7 +995,7 @@ footer .newsletter {
 .newsletter button:hover {
     background-color: inherit;
     border: 2px solid #2d2d2d;
-    color: inherit;
+    color: #331818;
 }
 
 
@@ -1110,7 +1122,7 @@ footer .newsletter {
     margin-bottom: 40px;
 }
 .formulaire .emploi-form {
-    width: 75%;
+    width: 63%;
     height: 75%;
     display: flex;
     flex-direction: column;
