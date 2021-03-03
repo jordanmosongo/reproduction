@@ -369,63 +369,69 @@ body{
 
 
 /*styles pour la quatrième section*/
+@font-face {
+    font-family: "Montserrat-ac";
+    src: url("./fonts/montserrat/Montserrat-Bold.ttf");
+}
 .accompagnement {
-    height: 70vh;
+    height: 43.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #f1eff3;
 }
 .accompagnement h1 {
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-    color: #180027;
+    margin-bottom: 30px;
+    font-family: 'Montserrat-ac', sans-serif;
+    color: #3d1a46;
     font-size: 40px;
 }
 .card {
     height: 60%;
-    width: 70%;
+    width: 63%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     padding-top: 20px;
+    margin-bottom: -50px;
 }
 .card div {
     height: 75%;
-    width: 43%;
-    background-color: #f1eff3;
-    border-top: 12px solid #d92950;
-    border-radius: 0px 0px 15px 15px;
-    margin: auto;
+    width: 48%;
+    background-color: #ffffff;
+    border-top: 15px solid #d92950;
+    border-radius: 0px 0px 25px 25px;
     text-align: center;
 }
 .card .first-card {
-    border-top: 12px solid #f9ff00;
+    border-top: 15px solid #f9ff00;
 }
 .card h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-ac', sans-serif;
     font-size: 28px;
     color: #d92950;
     text-align: center;
     margin-top: 25px;
 }
 .card p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: #180027;
+    font-family: 'Montserrat-regular', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4e51;
     text-align: center;
     margin: 30px;
 }
 .card button {
     margin: auto;
     border-radius: 15px;
-    width: 53%;
+    width: 60%;
     height: 25%;
     color: #ffffff;
     background-color: #d92950;
     text-transform:uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-regular', sans-serif;
     font-size: 20px;
+    font-weight: bolder;
     cursor: pointer;
     border: 2px solid white;
 }
@@ -434,22 +440,17 @@ body{
     background-color:#ffffff ;
     border: 2px solid #d92950;
 }
-
-
-
-
-
-
 .produits {
-    height: 88vh;
+    height: 50rem;
     background-color: #d92950;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
 }
 .produits h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-ac', sans-serif;
     font-size: 40px;
     color: #ffffff;
  }
@@ -459,10 +460,11 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .apps > div {
-    height: 90%;
-    width: 30%;
+    height: 95%;
+    width: 31%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -502,14 +504,16 @@ body{
 }
 .app-info .pays{
     background-color: white;
-    height: 50%;
+    height: 40%;
     border-radius: 10px 0 0 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
     align-items: center;
 }
 .pays p{
     color: red;
+    font-size: 14px;
+    padding: 10px;
 }
 
 .apps .app-tech {
@@ -544,10 +548,8 @@ body{
     background-color: #ffffff;
   }
 
-
-
 .expertise {
-    height: 70vh;
+    height: 42rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -555,7 +557,7 @@ body{
 }
 .expertise h1 {
     margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-ac', sans-serif;
     color: #180027;
     font-size: 40px;
 }
@@ -605,9 +607,17 @@ body{
 }
 .images-hardskills {
     width: 25%;
-    height: 20%;
+    height: 24%;
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images-hardskills svg {
+    width: 3em;
+    height: 3em;
 }
 .images-hardskills img{
     max-width: 100%;
@@ -640,7 +650,7 @@ body{
 
 
 .pret {
-    height: 60vh;
+    height: 40rem;
     background-color: #ba0a4b;
     display: flex;
     flex-direction: column;
@@ -648,20 +658,19 @@ body{
     align-items: center;
 }
 .pret h1 {
-    margin: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-ac', sans-serif;
     color: #ffffff;
     font-size: 40px;  
 }
 .pret .appel{
-    width: 80%;
+    width: 65%;
     height: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+  
 }
 .pret button{
-    margin: auto;
     border-radius: 15px;
     width: 15%;
     height: 10%;
@@ -673,31 +682,40 @@ body{
     cursor: pointer;
     border: 2px solid #d92950;
 }
+.pret button:hover{
+   
+    background-color: inherit;
+    border: 2px solid #ffffff;
+}
 .appel div {
     width: 20%;
     height: 80%;
+ 
 }
 .appel-element {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 .appel-element .bloc {
-    width: 90%;
+    width: 80%;
     height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bloc .bloc-image {
-    width: 30%;
-    height: 70%;
+    width: 40%;
+    height: 65%;
     margin: auto;
     text-align: center;
     border: 2px solid #ffffff;
     border-radius: 10px;
     padding-top: 10px;
+}
+.bloc .image-arrow {
+    width: 10% !important;
 }
 .bloc :nth-child(2) {
     border: none;
@@ -706,7 +724,8 @@ body{
 .appel-element p {
     color: #ffffff;
     font-size: 20px;
-    line-height: 30px;
+    text-align: center !important;
+
 }
 
 
@@ -722,6 +741,7 @@ body{
     width: 40%;
     height: 80%;
    
+   
 }
 .first-bloc .bloc {
     height: 80%;
@@ -732,7 +752,7 @@ body{
     margin: auto;
 }
 .first-bloc h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-ac', sans-serif;
     color: #424345;
     font-size: 40px;  
     line-height: 48px;
@@ -752,48 +772,41 @@ body{
 }
 .second-bloc {
     display: flex;
-    flex-direction: column;    
-    justify-content: flex-start;
-}
-.second-bloc > div {
-    width: 90%;
-    height: 50%;
-    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-.bloc-one .bloc, .bloc-two .bloc {
-    height: 95%;
-    width: 48%;
-    border: 2px solid #ffffff;
-    border-radius: 20px;
+.second-bloc .bloc-child {
+    width: 45.5%;
+    height: 45.5%;
+    border-radius: 15px;
     background-color: #ffffff;
-    margin: auto;
-   
+    padding: 1.2%;
 }
-.bloc h3 {
+.bloc-child img {
+    height: 90px;
+    margin-bottom: 20px;
+}
+.bloc-child h3{
     font-family: 'Montserrat', sans-serif;
     color: #424345;
     font-size: 24px;  
     line-height: 28.8px;
-    margin-left: 0 !important;
-    padding: 10px;
-}   
-.bloc p {
+    margin-bottom: 20px;
+}
+.bloc-child p {
     font-family: 'Montserrat', sans-serif;
     color: #424345;
     font-size: 16px;  
     line-height: 24px;
 }
-.bloc-two .bloc >img, .bloc-one .bloc > img{
-    width: 20%;
-    margin: 10px;
-}
+
 
 .media {
-    height: 40vh;
+    height: 25rem;
     background-color: #111111;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -802,14 +815,13 @@ body{
     color: #ffffff;
     font-size: 40px;  
     line-height: 48px;
-    margin-top: 20px;
 }
 .media .images {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 50%;
-    height: 30%;
+    height: 50%;
 }
 .media .images > div {
     width: 20%;
@@ -820,7 +832,7 @@ body{
 }
 
 .soutien {
-    height: 100vh;
+    height: 65rem;
     background-color: #f1eff3;
     display: flex;
     flex-direction: column;
@@ -829,7 +841,7 @@ body{
     margin-bottom: 10px;
 }
 .soutien h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-ac', sans-serif;
     color: #424345;
     font-size: 40px;  
     line-height: 48px;
@@ -846,17 +858,17 @@ body{
 .soutien-image {
     width: 24.5%;
     height: 95%;
-    
+   
 }
  .soutien-mot {
     width: 24.5%;
-    height: 95%;
+    height: 90%;
     display: flex;
     justify-content: flex-start;
 }
 .soutien-mot iframe {
-    margin-top: 20px;
     
+    height: 90%;
 }
 .soutien-image img {
     max-width: max-content;
@@ -882,7 +894,7 @@ body{
 
 
 footer {
-    height: 70vh;
+    height: 44rem;
     background-color: #2d2d2d; 
     display: flex;   
     justify-content: center; 
@@ -893,7 +905,7 @@ footer {
     line-height: 33.6px;
 }
 footer > * {
-    width: 30%;
+    width: 36%;
     height: 55%;
     padding: 20px;
 }
@@ -903,14 +915,40 @@ footer address {
     justify-content: space-between;
     
 }
-address li{
-    display: inline;
+footer li{
     text-decoration: none;
     padding: 10px;
 }
-address a {
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+footer a {
     color: #FF046B;
     text-decoration: none;
+    
+}
+footer a::after, .social-links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    background-color: #e8566a;
+}
+footer p a:hover::after {
+    width: 32%;
+    transition: width .3s;
+    cursor: pointer;
+}
+#kin:hover::after {
+    width: 43%;
+    transition: width .3s;
+}
+.social-links a:hover::after{
+    width: 80%;
+    transition: width .3s;
 }
 footer .newsletter {
     display: flex;
@@ -1031,7 +1069,6 @@ footer .newsletter {
     width: 80%;
     height: 2.8rem;
     font-size: 16px;
-    line-height: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     border-radius: 15px;
@@ -1058,7 +1095,7 @@ footer .newsletter {
 }
 .formulaire {
     background-color: #1e1925;
-    height: 100vh;
+    height: 65rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1073,7 +1110,7 @@ footer .newsletter {
     margin-bottom: 40px;
 }
 .formulaire .emploi-form {
-    width: 65%;
+    width: 75%;
     height: 75%;
     display: flex;
     flex-direction: column;
@@ -1138,16 +1175,19 @@ footer .newsletter {
     color: #424345;
 }
 .emploi-form .form-control {
-    height: 17%;
-    width: 100%;
-    margin: auto;
+    height: 15%;
+    width: 98%;
+    padding: 3px 3px 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .emploi-form .second-bloc {
     width: 100%;
-    height: 30%;
+    height: 38%;
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
+  
 }
 .emploi-form .second-bloc select {
     width: 100%;
