@@ -1,0 +1,117 @@
+.formulaire {
+    background-color: #1e1925;
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulaire h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.formulaire .emploi-form {
+    width: 63%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.emploi-form >p {
+    margin-left: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.emploi-form #form-link{
+    color: #d92950;
+}
+.emploi-form label, .emploi-form .second-bloc p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.emploi-form input::placeholder, .emploi-form textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #424345;
+}
+.emploi-form .first-bloc {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.emploi-form .first-bloc >* {
+    width: 48.8%;
+    height: 100%;
+    padding-top: 20px;
+}
+.emploi-form .first-bloc input, .emploi-form .first-bloc select,
+.emploi-form .second-bloc input
+{
+    width: 100%;
+    height: 2.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #424345;
+}
+.emploi-form .first-bloc input, 
+.emploi-form .second-bloc input
+{
+    width: 99.3% !important;
+}
+.emploi-form textarea {
+    width: 100%;
+    height: 4.5rem !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #424345;
+}
+.emploi-form .form-control {
+    height: 15%;
+    width: 98%;
+    padding: 3px 3px 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.emploi-form .second-bloc {
+    width: 100%;
+    height: 38%;
+    display: flex;
+    justify-content: flex-start;
+  
+}
+.emploi-form .second-bloc select {
+    width: 100%;
+    height: 3.1rem !important;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.emploi-form button {
+    background-color: #e80041;
+    border: 2px solid #e80041;
+    width: 130px;
+    height: 3.5rem;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 15px;
+
+}
+.emploi-form button :hover {
+    background-color: inherit;
+}

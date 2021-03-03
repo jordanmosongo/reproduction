@@ -1,0 +1,78 @@
+.pret {
+    height: 40rem;
+    background-color: #ba0a4b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pret h1 {
+    font-family: 'Montserrat-ac', sans-serif;
+    color: #ffffff;
+    font-size: 40px;  
+}
+.pret .appel{
+    width: 65%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.pret button{
+    border-radius: 15px;
+    width: 15%;
+    height: 10%;
+    color: #ffffff;
+    background-color: #d92950;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #d92950;
+}
+.pret button:hover{
+   
+    background-color: inherit;
+    border: 2px solid #ffffff;
+}
+.appel div {
+    width: 20%;
+    height: 80%;
+ 
+}
+.appel-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.appel-element .bloc {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloc .bloc-image {
+    width: 40%;
+    height: 65%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.bloc .image-arrow {
+    width: 10% !important;
+}
+.bloc :nth-child(2) {
+    border: none;
+    margin-left: -20px;
+}
+.appel-element p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center !important;
+
+}

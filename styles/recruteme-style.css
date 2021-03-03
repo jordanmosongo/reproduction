@@ -1,0 +1,112 @@
+.recrutement {
+    background-color: #ffffff;
+    height: 130vh;
+    padding-top: 8%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.recrutement h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111111;
+    margin-bottom: 60px;
+    margin-top: 7%;
+    
+}
+.recrutement .bloc-recrutement {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+.bloc-recrutement .element {
+    height: 90%;
+    width: 41%;
+    border-radius: 20px;
+    background-color: #f1eff3;   
+    padding: 4%; 
+}
+.bloc-recrutement h2 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    color: #111111;
+    margin-bottom: 50px;
+}
+
+.bloc-recrutement h3 {
+    font-size: 28px;
+    line-height: 33.6px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.bloc-recrutement p, .bloc-recrutement ul{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #424345;
+    margin-bottom: 20px;
+}
+.bloc-recrutement ul {
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+.bloc-recrutement .btn-link {
+    background-color: #e80041;
+    color: #ffffff;
+    width: 80%;
+    height: 2.8rem;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #e80041;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.bloc-recrutement .btn-link:hover {
+    background-color: #ffffff;
+    color: #111111;
+    text-decoration: underline #111111;
+}
+#first-link {
+    height: 4.5rem !important;
+}
+.bloc-recrutement ~:nth-child(2) {
+    height: 70% !important;
+}
+.bloc-recrutement #recrutement-second-bloc {
+    height: 88% !important;
+}
+.bloc-recrutement #detail-link, #second-bloc-para a{
+    color: #d92950;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.bloc-recrutement #detail-link :hover {
+    text-decoration: underline #d92950 !important;
+}
+#second-bloc-para {
+    margin: 20px 0 20px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}

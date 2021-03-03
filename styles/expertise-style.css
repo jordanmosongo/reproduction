@@ -1,0 +1,100 @@
+
+.expertise {
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.expertise h1 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat-ac', sans-serif;
+    color: #180027;
+    font-size: 40px;
+}
+.expertise > div {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skill .first-skill{
+    height: 85%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;   
+}
+.skill h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px; 
+    color: #ffffff;
+    padding: 10px;
+}
+.first-skill .content,.second-skill .content {
+    height: 87%;
+    width: 100%;
+    background-color: #f1f0f3;
+    border-radius: 0 0 15px 15px;
+    color: #424345;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 31.2px;
+}
+.first-skill .title{
+    height: 13%;
+    width: 100%;
+    background-color: red;
+    
+}
+.first-skill .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.images-hardskills {
+    width: 25%;
+    height: 24%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images-hardskills svg {
+    width: 3em;
+    height: 3em;
+}
+.images-hardskills img{
+    max-width: 100%;
+    height: 80%;
+}
+.skill .second-skill{
+    height: 85%;
+    width: 35%;
+}
+.second-skill .title {
+    background-color: rgba(24,0,39,.87);
+    height: 13%;
+    width: 100%;
+}
+.second-skill .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .methodology{
+    width: 70%;
+    height: 70%;
+    background-color: #dfdde1;
+    border-radius: 10px;
+    padding: 20px;
+}
+.methodology ol {
+    padding: 20px;
+}

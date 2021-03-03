@@ -1,0 +1,28 @@
+.media {
+    height: 25rem;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.media h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 40px;  
+    line-height: 48px;
+}
+.media .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+.media .images > div {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

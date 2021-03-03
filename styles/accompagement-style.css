@@ -1,0 +1,72 @@
+/*styles pour la quatrième section*/
+@font-face {
+    font-family: "Montserrat-ac";
+    src: url("./fonts/montserrat/Montserrat-Bold.ttf");
+}
+.accompagnement {
+    height: 43.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1eff3;
+}
+.accompagnement h1 {
+    margin-bottom: 30px;
+    font-family: 'Montserrat-ac', sans-serif;
+    color: #3d1a46;
+    font-size: 40px;
+}
+.card {
+    height: 60%;
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: -50px;
+}
+.card div {
+    height: 75%;
+    width: 48%;
+    background-color: #ffffff;
+    border-top: 15px solid #d92950;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+}
+.card .first-card {
+    border-top: 15px solid #f9ff00;
+}
+.card h3 {
+    font-family: 'Montserrat-ac', sans-serif;
+    font-size: 28px;
+    color: #d92950;
+    text-align: center;
+    margin-top: 25px;
+}
+.card p {
+    font-family: 'Montserrat-regular', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4e51;
+    text-align: center;
+    margin: 30px;
+}
+.card button {
+    margin: auto;
+    border-radius: 15px;
+    width: 60%;
+    height: 25%;
+    color: #ffffff;
+    background-color: #d92950;
+    text-transform:uppercase;
+    font-family: 'Roboto-regular', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.card button:hover {
+    color: #d92950;
+    background-color:#ffffff ;
+    border: 2px solid #d92950;
+}
