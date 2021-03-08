@@ -1,33 +1,38 @@
 /*styles pour la quatrième section*/
 @font-face {
     font-family: "Montserrat-ac";
-    src: url("./fonts/montserrat/Montserrat-Bold.ttf");
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
 }
 .accompagnement {
-    height: 43.5rem;
+    height: 45rem;
+    background-color: #f1eff3;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f1eff3;
 }
+.accompagnement .global-bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+ }
 .accompagnement h1 {
-    margin-bottom: 30px;
     font-family: 'Montserrat-ac', sans-serif;
     color: #3d1a46;
     font-size: 40px;
+   
 }
 .card {
     height: 60%;
-    width: 63%;
+    width: 64%;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    margin-bottom: -50px;
 }
 .card div {
-    height: 75%;
-    width: 48%;
+    height: 94%;
+    width: 49%;
     background-color: #ffffff;
     border-top: 15px solid #d92950;
     border-radius: 0px 0px 25px 25px;
@@ -45,17 +50,17 @@
 }
 .card p {
     font-family: 'Montserrat-regular', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     color: #4d4e51;
     text-align: center;
-    margin: 30px;
+    margin:  20px 45px 20px 45px;
 }
 .card button {
     margin: auto;
     border-radius: 15px;
     width: 60%;
-    height: 25%;
+    height: 24.7%;
     color: #ffffff;
     background-color: #d92950;
     text-transform:uppercase;

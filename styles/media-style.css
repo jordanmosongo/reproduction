@@ -6,17 +6,20 @@
     align-items: center;
     flex-direction: column;
 }
+@font-face {
+    font-family: "Montserrat-h";
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
+}
 .media h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-h', sans-serif;
     color: #ffffff;
-    font-size: 40px;  
-    line-height: 48px;
+    font-size: 44px;  
 }
 .media .images {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
+    width: 44%;
     height: 50%;
 }
 .media .images > div {

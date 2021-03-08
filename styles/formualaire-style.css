@@ -1,6 +1,10 @@
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
+}
 .formulaire {
-    background-color: #1e1925;
-    height: 65rem;
+    background-color: #1D1B25;
+    height: 68rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,109 +13,176 @@
 .formulaire h1 {
     text-align: center;
     font-size: 48px;
-    line-height: 57.6px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    font-family: 'Montserrat-bold', sans-serif;
+    color: #FFFFFFDE;
     margin-bottom: 40px;
 }
 .formulaire .emploi-form {
-    width: 63%;
-    height: 75%;
+    width: 70%;
+    height: 80%;
+}
+.emploi-form .first-bloc {
+    width: 100%;
+    height: 45%;    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.emploi-form .second-bloc {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
+    justify-content: space-around;
 }
-.emploi-form >p {
-    margin-left: 40px;
+
+@font-face{
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Medium.ttf");
+}
+.first-bloc > strong {
     color: #ffffff;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
 }
-.emploi-form #form-link{
-    color: #d92950;
+.first-bloc a{
+    color: #D92950;
+    text-decoration: none;
+}
+.first-bloc .bloc-titre{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-bloc .bloc-titre > div {
+    width: 48.8%;
+    height: 100%;
+}
+.emploi-form .form-control {
+    height: 17%;
+    width: 100%;
+    padding: 3px 3px 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
 }
 .emploi-form label, .emploi-form .second-bloc p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
+    color: #FFFFFFDE;
 }
 .emploi-form input::placeholder, .emploi-form textarea::placeholder {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 24px;
     color: #424345;
 }
-.emploi-form .first-bloc {
-    width: 100%;
-    height: 48%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.emploi-form .first-bloc >* {
-    width: 48.8%;
-    height: 100%;
-    padding-top: 20px;
-}
+
 .emploi-form .first-bloc input, .emploi-form .first-bloc select,
-.emploi-form .second-bloc input
+.emploi-form .second-bloc input, .emploi-form .second-bloc select
 {
     width: 100%;
-    height: 2.8rem;
+    height: 3.0rem;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 24px;
     color: #424345;
+    padding-left: 20px;
 }
 .emploi-form .first-bloc input, 
 .emploi-form .second-bloc input
 {
     width: 99.3% !important;
 }
+
 .emploi-form textarea {
-    width: 100%;
+    width: 98.37%;
     height: 4.5rem !important;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #424345;
+    padding-left:20px;
+    padding-top: 10px;
+    
 }
-.emploi-form .form-control {
-    height: 15%;
-    width: 98%;
-    padding: 3px 3px 3px 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.emploi-form .second-bloc {
-    width: 100%;
-    height: 38%;
-    display: flex;
-    justify-content: flex-start;
-  
-}
-.emploi-form .second-bloc select {
-    width: 100%;
-    height: 3.1rem !important;  
-    margin-top: 15px;
-    margin-bottom: 15px;
+@font-face{
+    font-family: "Roboto-bold";
+    src:url("../fonts/roboto/Roboto-Bold.ttf");
 }
 .emploi-form button {
-    background-color: #e80041;
-    border: 2px solid #e80041;
-    width: 130px;
-    height: 3.5rem;
+    background-color: #D92950;
+    border: 2px solid #D92950;
+    display: block;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-family: "Roboto-bold", sans-serif;
+    font-size: 17px;
     line-height: 24px;
     border-radius: 15px;
-
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.emploi-form button:hover{
+    background-color: transparent;
 }
 .emploi-form button :hover {
     background-color: inherit;
 }
+#second-bloc-para {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFFDE;
+  
+
+}
+#second-bloc-para a{
+    color: #D92950;
+    text-decoration: none;
+}
+.formulaire .customized {
+    appearance: none;
+    background: #fff url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
+    no-repeat right .75rem center/8px 10px;
+    border: 1px solid #ced4da;
+    vertical-align: middle;
+}
+.formulaire #precision {
+    resize: none;
+    overflow-y: scroll;
+}
+#form, #form-link{
+  position: relative;
+  text-decoration: none;
+  color: #D92950;
+  padding: 3px 0;
+}
+#form::after, #form-link::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #D92950;
+    transition: width 500ms ease;
+}
+#form:hover::after, #form-link:hover::after {
+    width: 100%;
+}
+.formulaire input:focus, 
+.formulaire textarea:focus,
+.formulaire select:focus {
+    box-shadow: 0 0 6px #D92950;    
+    border: 1px solid #D92950;
+    outline:none;
+}
+

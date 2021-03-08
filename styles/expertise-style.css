@@ -1,6 +1,6 @@
 
 .expertise {
-    height: 42rem;
+    height: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,23 +9,24 @@
 .expertise h1 {
     margin-bottom: 20px;
     font-family: 'Montserrat-ac', sans-serif;
-    color: #180027;
+    color: #424345;
     font-size: 40px;
 }
 .expertise > div {
-    height: 70%;
-    width: 70%;
+    height: 64%;
+    width: 72%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .skill .first-skill{
-    height: 85%;
-    width: 55%;
+    height: 95%;
+    width: 58%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;   
+    
 }
 .skill h3{
     font-family: 'Montserrat', sans-serif;
@@ -37,34 +38,39 @@
     height: 87%;
     width: 100%;
     background-color: #f1f0f3;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 20px 20px;
     color: #424345;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
     line-height: 31.2px;
 }
 .first-skill .title{
-    height: 13%;
+    height: 15%;
     width: 100%;
-    background-color: red;
-    
+    background-color: #D92950;
+      
 }
 .first-skill .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
+    align-items: center;    
+    padding-top: 3%;
+  
 }
 .images-hardskills {
     width: 25%;
-    height: 24%;
+    height: 22%;
     margin: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#more-space{
+    font-size: 0.1px;
+    color: #f1f0f3;
 }
 .images-hardskills svg {
     width: 3em;
@@ -75,26 +81,47 @@
     height: 80%;
 }
 .skill .second-skill{
-    height: 85%;
-    width: 35%;
+    height: 93%;
+    width: 39.5%;
 }
 .second-skill .title {
     background-color: rgba(24,0,39,.87);
-    height: 13%;
+    height: 15%;
     width: 100%;
+}
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
+}
+.title h3 {
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
 }
 .second-skill .content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu/UbuntuMono-Regular.ttf");
+}
 .content .methodology{
-    width: 70%;
+    width: 75%;
     height: 70%;
-    background-color: #dfdde1;
+    background-color: #DFDEE1;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px;   
+    margin: auto;
+    
 }
 .methodology ol {
-    padding: 20px;
+    position: relative;
+    left: 16%;
+    top: 8%;
+   
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
+
 }

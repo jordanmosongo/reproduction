@@ -5,28 +5,97 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 50px 0 50px 0;   
 }
 .produits h1 {
     font-family: 'Montserrat-ac', sans-serif;
     font-size: 40px;
     color: #ffffff;
  }
+ .produits .global-container {
+     overflow-x:hidden;
+     scroll-padding-bottom: unset;
+     width: 67%;
+     height: 70%;
+     padding-left: 20px;
+ }
+ #prev, #next {
+    background-color: #fcc4d1;   
+    border: 1px solid #fcc4d1;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    position:absolute;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10%;
+    color: red ;
+ }
+ #prev {
+    left: 14%;
+ }
+ #next {
+   right: 14%;
+ 
+ }
+ #prev:hover, #next:hover {
+    background-color: white;
+ }
 .produits .apps{
-    height: 80%;
-    width: 70%;
+    height: 100%;
+    width: 230%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
 }
 .apps > div {
     height: 95%;
-    width: 31%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    scroll-snap-type: x mandatory;
+    animation: slide 20s ease-in-out 2s infinite;
+    margin: 0 0 0 50px;
+}
+@keyframes slide {
+    0% {
+        position: relative;
+        left: 0;
+     
+    }    
+    10% {
+        position: relative;
+        left: -15%;
+    }
+    15% {
+        position: relative;
+        left: -15%;   
+    }
+    20% {
+        position: relative;
+        left: -30%;
+    }
+    25% {
+        position: relative;     
+        left: -30%;
+    }
+    30% {
+        position: relative;
+        left: -45%; 
+    }
+    35% {
+        position: relative;
+        left: -43%; 
+    }
+    40% {
+        position: relative;
+        left: -58%; 
+    }
+    
+   
 }
 .apps .app-image {
     height: 80%;
@@ -36,8 +105,6 @@
 }
 .app-image img{
     max-width: 100%;
-    height: 100%;
-    box-sizing: border-box;
     border-radius: 10px;
 }
 .apps .app-info {
@@ -46,7 +113,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .app-info .client {
     height: 100%;    

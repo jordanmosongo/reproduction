@@ -45,12 +45,12 @@
 .soutien-image p{
     font-family: 'Montserrat', sans-serif;
     color: #424345;
-    font-size: 16px;  
-    line-height: 20px;
-    
+    font-size: 18px;  
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .soutien-mots {
-    height: 60%;
+    height: 54%;
     width: 67%;
     display: flex;
     justify-content: space-around;
