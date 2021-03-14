@@ -1,18 +1,19 @@
 .recrutement {
     background-color: #ffffff;
     height: 130vh;
-    padding-top: 8%;
+    padding-top: 10%;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
+    padding-bottom: 5%;
 }
 .recrutement h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 42px;
     line-height: 48px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-boldd', sans-serif;
     color: #111111;
     margin-bottom: 60px;
     margin-top: 7%;
@@ -34,25 +35,25 @@
     padding: 4%; 
 }
 .bloc-recrutement h2 {
-    font-size: 48px;
+    font-size: 50px;
     line-height: 57.6px;
     font-weight: 100;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-boldd', sans-serif;
     color: #111111;
     margin-bottom: 50px;
 }
 
 .bloc-recrutement h3 {
-    font-size: 28px;
+    font-size: 29px;
     line-height: 33.6px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-boldd', sans-serif;
     color: #111111;
     margin-bottom: 20px;
 }
 .bloc-recrutement p, .bloc-recrutement ul{
     font-size: 16px;
     line-height: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-regular', sans-serif;
     color: #424345;
     margin-bottom: 20px;
 }
@@ -63,10 +64,9 @@
 .bloc-recrutement .btn-link {
     background-color: #e80041;
     color: #ffffff;
-    width: 80%;
     height: 2.8rem;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-boldd', sans-serif;
     font-weight: bolder;
     border-radius: 15px;
     text-align: center;
@@ -81,8 +81,7 @@
 }
 .bloc-recrutement .btn-link:hover {
     background-color: #ffffff;
-    color: #111111;
-    text-decoration: underline #111111;
+    color: #e80041;
 }
 #first-link {
     height: 4.5rem !important;
@@ -102,11 +101,4 @@
 }
 .bloc-recrutement #detail-link :hover {
     text-decoration: underline #d92950 !important;
-}
-#second-bloc-para {
-    margin: 20px 0 20px 0;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
 }

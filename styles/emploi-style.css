@@ -12,7 +12,7 @@
 .emploi .second-bloc{
     width: 36%;
     height: 72%;  
-    padding-left: 10px; 
+    position: relative;
 }
 .first-bloc .bloc {
     height: 80%;
@@ -23,16 +23,12 @@
     
 }
 .first-bloc h1{
-    font-family: 'Montserrat-ac', sans-serif;
+    font-family: 'Montserrat-boldd', sans-serif;
     color: #424345;
-    font-size: 42px;  
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+    font-size: 43px;  
 }
 .first-bloc p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-regular', sans-serif;
     color: #424345;
     font-size: 18px;  
     line-height: 24px;
@@ -66,15 +62,15 @@
     margin-bottom: 20px;
 }
 .bloc-child h3{
-    font-family: 'Montserrat-ac', sans-serif;
+    font-family: 'Montserrat-boldd', sans-serif;
     color: #424345;
-    font-size: 28px;  
+    font-size: 26px;  
     line-height: 28.8px;
     margin-bottom: 10px;
     margin-top: -10px;
 }
 .bloc-child p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-regular', sans-serif;
     color: #424345;
     font-size: 18px;  
     line-height: 24px;

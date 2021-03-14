@@ -7,14 +7,14 @@
     align-items: center;
 }
 .expertise h1 {
-    margin-bottom: 20px;
-    font-family: 'Montserrat-ac', sans-serif;
+    margin-bottom: 45px;
+    font-family: 'Montserrat-boldd', sans-serif;
     color: #424345;
-    font-size: 40px;
+    font-size: 42px;
 }
 .expertise > div {
     height: 64%;
-    width: 72%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -29,7 +29,7 @@
     
 }
 .skill h3{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-regular', sans-serif;
     font-size: 28px; 
     color: #ffffff;
     padding: 10px;
@@ -89,12 +89,8 @@
     height: 15%;
     width: 100%;
 }
-@font-face {
-    font-family: "Montserrat-bold";
-    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
-}
 .title h3 {
-    font-family: "Montserrat-bold", sans-serif;
+    font-family: "Montserrat-boldd", sans-serif;
     font-size: 30px;
     margin-left: 15px;
 }
@@ -103,10 +99,7 @@
     justify-content: center;
     align-items: center;
 }
-@font-face {
-    font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu/UbuntuMono-Regular.ttf");
-}
+
 .content .methodology{
     width: 75%;
     height: 70%;
@@ -114,14 +107,11 @@
     border-radius: 10px;
     padding: 20px;   
     margin: auto;
-    
 }
 .methodology ol {
     position: relative;
     left: 16%;
-    top: 8%;
-   
+    top: 8%;   
     font-family: "Ubuntu", sans-serif;
     font-size: 22px;
-
 }

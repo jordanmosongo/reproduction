@@ -1,9 +1,43 @@
+@font-face {
+    font-family: "Roboto-regular";
+    src: url("./fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-bold";
+    src: url("./fonts/roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url("./fonts/montserrat/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url("./fonts/montserrat/Montserrat-Black.ttf");
+
+}
+@font-face {
+    font-family: "Montserrat-regular";
+    src: url("./fonts/montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Montserrat-boldd";
+    src: url("./fonts/montserrat/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./fonts/Ubuntu/UbuntuMono-Regular.ttf");
+}
 * {
     margin: 0;
     padding: 0;
 }
 body{
     background-color: #fff;
+}
+/*LES FONT-FAMILIES*/
+:is(.equipe h1, 
+    ){
+    font-family: "Montserrat-boldd", sans-serif;
 }
 /*styles pour la première section*/
 .header {
@@ -50,10 +84,7 @@ body{
     display: inline;
     padding: 25px;
 }
-@font-face {
-    font-family: "Roboto-regular";
-    src: url("./fonts/roboto/Roboto-Regular.ttf");
-}
+
 .menu a {
     text-decoration: none;
     font-family: 'Roboto-regular', sans-serif;
@@ -189,10 +220,7 @@ footer .newsletter {
     border: 2px solid #2d2d2d;
     color: #331818;
 }
-@font-face {
-    font-family: "Montserrat-bold";
-    src: url("./fonts/montserrat/Montserrat-ExtraBold.ttf");
-}
+
 .newsletter a{
     color: #ffffff;
     font-family: "Montserrat-bold", sans-serif;
@@ -203,7 +231,7 @@ footer .newsletter {
 
 
 /*Pour le banner*/
-.banner{
+/*.banner{
     background-image: url("ressources/hero-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,11 +256,7 @@ footer .newsletter {
     color: #fef13a;
     
 }
-@font-face {
-    font-family: "Montserrat-ExtraBold";
-    src: url("./fonts/montserrat/Montserrat-Black.ttf");
 
-}
 .banner-text h1{
     text-align: center;
     font-weight: 500;
@@ -286,10 +310,7 @@ footer .newsletter {
     border-radius: 15px;
     border: 2px solid white;
 }
-@font-face {
-    font-family: "Montserrat-regular";
-    src: url("./fonts/montserrat/Montserrat-Regular.ttf");
-}
+
 .banner-button p {
     text-align: center;
     padding: auto;
@@ -321,4 +342,4 @@ footer .newsletter {
     opacity: 0.5;
     width: 3em;
     height: 3em;
-}
+}*/
