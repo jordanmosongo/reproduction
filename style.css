@@ -31,13 +31,12 @@
     margin: 0;
     padding: 0;
 }
+.banner .mosongo {
+    font-family: 'Roboto', 'sans-serif';
+    color: white;
+}
 body{
     background-color: #fff;
-}
-/*LES FONT-FAMILIES*/
-:is(.equipe h1, 
-    ){
-    font-family: "Montserrat-boldd", sans-serif;
 }
 /*styles pour la première section*/
 .header {
@@ -227,119 +226,15 @@ footer .newsletter {
     font-size: 17px;
     
 }
-
-
-
-/*Pour le banner*/
-/*.banner{
-    background-image: url("ressources/hero-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+iframe {
+    border: none;
+    position: static;
+    visibility: visible; 
+    width: 446px; 
+    height: 560px; 
+    display: block; 
+    flex-grow: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
    
-} 
-.banner .banner-text {
-    width: 50%;
-    height: 50%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-       
 }
-.banner-text #qualified {
-    color: #fef13a;
-    
-}
-
-.banner-text h1{
-    text-align: center;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 101px;
-    line-height: 122.3px;
-    font-family: 'Montserrat-ExtraBold', sans-serif;
-    color: #ffffff;
-    margin-top: 40px;
-}
-.banner .banner-button {
-    width: 50%;
-    height: 20%;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.banner-button .bouton {
-    width: 60%;
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.banner-button div {
-    height: 80%;
-    width: 48%;
-}
-
-.bouton button {
-    margin: auto;
-    border-radius: 15px;
-    background-color: #ffffff !important;
-    width: 100%;
-    height: 84%;
-    color: #d92950;
-    text-transform:uppercase;
-    font-family: 'Roboto-regular', sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    cursor: pointer;
-    border: 2px solid #ffffff;
-}
-.bouton button:hover, 
-.bouton button:active,
-.bouton button:focus {
-    background-color: transparent !important;
-    color: #ffffff;
-    border-radius: 15px;
-    border: 2px solid white;
-}
-
-.banner-button p {
-    text-align: center;
-    padding: auto;
-    margin: auto;
-    width: 80%;
-    font-family: 'Montserrat-regular', sans-serif;
-    line-height: 24px;
-    font-size: 16px;
-}
-
-.banner .banner-tech {
-    width: 72%;
-    height: 12%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;   
-    
-}
-.image-technologies {
-    width: 7% !important;
-    height: 60% !important;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
- }
-.image-technologies .iconify {
-    color: #ffffff;
-    opacity: 0.5;
-    width: 3em;
-    height: 3em;
-}*/

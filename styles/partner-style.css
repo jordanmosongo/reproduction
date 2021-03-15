@@ -16,7 +16,6 @@
     width: 70%;
     overflow-x:hidden;
     scroll-padding-bottom: unset;
-    overflow-inline: inherit;
     height: 30%; 
 }
 .partner-list {
